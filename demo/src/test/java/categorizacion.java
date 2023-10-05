@@ -1,14 +1,14 @@
 public class inteaciones {
     private boolean clientes;
-    private boolean chat;
-    private boolean tiket;
+    private boolean seguimiento;
+    private boolean plantas;
+    private boolean interaciones;
 
-
-    public interaciones (boolean clientes, boolean chat, boolean tiket ){
+    public interaciones (boolean clientes, boolean seguimiento, boolean plantas, boolean inteaciones){
         this.clientes=clientes;
-        this.chat=chat;
-        this.tiket=tiket;
-    
+        this.seguimiento=seguimiento;
+        this.plantas=plantas;
+        this.interaciones=interaciones;
     }
 
 
@@ -16,19 +16,23 @@ public class inteaciones {
      public boolean getclientes(){
         return clientes;
     }
-    public boolean getchat(){
-        return chat;
+    public boolean getseguimiento(){
+        return seguimiento;
     }
 
-    public boolean getiket(){
-        return tiket;
+    public boolean getplantas(){
+        return plantas;
+    }
+    public boolean getinteraciones(){
+        return interaciones;
     }
 
-    public void setclientes (boolean clientes, boolean chat, boolean tiket){
-
+    public void setclientes (boolean clientes, boolean seguimiento, boolean plantas, boolean inteaciones){
+       
         this.clientes=clientes;
-        this.chat=chat;
-        this.tiket=tiket;
+        this.seguimiento=seguimiento;
+        this.plantas=plantas;
+        this.interaciones=interaciones;
     }
 
     
