@@ -1,4 +1,4 @@
-public class clientes  {adquiriAprender
+public class clientes  {
     private boolean adquiriAprender ;
     private String registrarcliente;
     private String plantasAdquiridas;
