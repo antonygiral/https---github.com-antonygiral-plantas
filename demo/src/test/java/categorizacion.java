@@ -1,9 +1,11 @@
 public class inteaciones {
+    private boolean clientes;
     private boolean chat;
     private boolean tiket;
 
 
-    public interaciones (boolean chat, boolean tiket ){
+    public interaciones (boolean clientes, boolean chat, boolean tiket ){
+        this.clientes=clientes;
         this.chat=chat;
         this.tiket=tiket;
     
@@ -11,12 +13,23 @@ public class inteaciones {
 
 
      /*get */
+     public boolean getclientes(){
+        return clientes;
+    }
     public boolean getchat(){
-        return idoplantas;
+        return chat;
     }
 
     public boolean getiket(){
-        return idoplantas;
+        return tiket;
     }
 
-}   
+    public void setclientes (boolean clientes, boolean chat, boolean tiket){
+
+        this.clientes=clientes;
+        this.chat=chat;
+        this.tiket=tiket;
+    }
+
+    
+}

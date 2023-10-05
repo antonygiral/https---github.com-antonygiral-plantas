@@ -18,6 +18,10 @@ public class inteaciones {
     public boolean getiket(){
         return idoplantas;
     }
+    public void setclientes (boolean chat, boolean tiket ){
+        this.chat=chat;
+        this.tiket=tiket;
+    }
 
 }   
 
