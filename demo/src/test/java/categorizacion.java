@@ -1,4 +1,4 @@
-public class inteaciones {
+public class categorias{
     private boolean clientes;
     private boolean seguimiento;
     private boolean plantas;
@@ -13,7 +13,7 @@ public class inteaciones {
 
 
      /*get */
-     public boolean getclientes(){
+    public boolean getclientes(){
         return clientes;
     }
     public boolean getseguimiento(){
