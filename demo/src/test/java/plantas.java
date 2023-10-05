@@ -1,9 +1,9 @@
 public class Planta {
-    String nombrecomun;
-    String nombrecientifico;
-    String tipo;
-    String requerimientosluz;
-    String requerimientosagua;
+    private String nombrecomun;
+    private String nombrecientifico;
+    private String tipo;
+    private String requerimientosluz;
+    private String requerimientosagua;
 
     public Planta(String nombrecomun, String nombrecientifico, String tipo, String requerimientosluz, String requerimientosagua) {
         this.nombreComun = nombreComun;
